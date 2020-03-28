@@ -133,3 +133,8 @@ a {
 .wrapper .main .body p{
     margin: 0;
 }
+
+.wrapper .copyright {
+    position: fixed;
+    bottom: 1rem;
+}
