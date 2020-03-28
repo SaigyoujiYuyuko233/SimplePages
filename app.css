@@ -1,0 +1,23 @@
+@import "https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css";
+
+/**
+ ========== Global ==========
+ */
+body {
+    font-family: "Microsoft YaHei UI", Helvetica, Microsoft Yahei, sans-serif, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1396FF;
+}
+
+
+
