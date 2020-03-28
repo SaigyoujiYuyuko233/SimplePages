@@ -1,4 +1,5 @@
 @import "https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css";
+@import "https://cdn.jsdelivr.net/npm/animate.css@3.7.0/animate.min.css";
 
 /**
  ========== Global ==========
@@ -84,32 +85,38 @@ a {
     z-index: 1;
 }
 
-.wrapper .body {
+.wrapper .main {
     text-align: center;
 }
 
-.wrapper .body .title {
+.wrapper .main .header {
+    position: relative;
+}
+
+.wrapper .main .header .title {
     font-size: 1rem;
     line-height: 1rem;
 }
 
-.wrapper .body .subtitle {
+.wrapper .main .header .subtitle {
     font-size: 0.5rem;
     line-height: 1rem;
 }
 
-.wrapper .body hr {
+.wrapper .main hr {
+    z-index: 2;
+
     border: 0;
-    height: 1px;
+    height: 2px;
 
     background-image: linear-gradient(to right, #000, #fff, #000);
 }
 
-.wrapper .body .text {
+.wrapper .main .body {
     font-size: 0.4rem;
     line-height: 0.5rem;
 }
 
-.wrapper .body .text p{
+.wrapper .main .body p{
     margin: 0;
 }
