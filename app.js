@@ -21,6 +21,6 @@ document.addEventListener('DOMContentLoaded',function(){
     img.addEventListener('load', function () {
         console.log("load");
         bg.css('background-image', img.baseURI);
-        bgCover.classList.add('animated', 'fadeOut');
+        bgCover.addClass('animated fadeOut slower');
     }, false);
 });
