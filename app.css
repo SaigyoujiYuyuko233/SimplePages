@@ -22,3 +22,94 @@ a {
 
 
 
+@media only screen and (max-width: 736px) {
+    :root {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 736px) {
+    :root {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    :root {
+        font-size: 4em;
+    }
+}
+
+
+/**
+ ========== Background Img ==========
+ */
+
+.background-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    z-index: -1;
+
+    height: 100%;
+    width: 100%;
+
+    /*background-image: url("bg.png");*/
+    background: black;
+}
+
+
+/**
+ ========== Body ==========
+ */
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 1rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    z-index: 1;
+}
+
+.wrapper .body {
+    text-align: center;
+}
+
+.wrapper .body .title {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.wrapper .body .subtitle {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+.wrapper .body hr {
+    border: 0;
+    height: 1px;
+
+    background-image: linear-gradient(to right, #000, #fff, #000);
+}
+
+.wrapper .body .text {
+    font-size: 0.4rem;
+    line-height: 0.5rem;
+}
+
+.wrapper .body .text p{
+    margin: 0;
+}
