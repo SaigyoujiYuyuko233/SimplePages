@@ -46,7 +46,7 @@ a {
  ========== Background Img ==========
  */
 
-.background-cover {
+.background {
     position: absolute;
     top: 0;
     left: 0;
@@ -112,7 +112,7 @@ a {
 }
 
 .wrapper .main .header .subtitle {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     line-height: 1rem;
 }
 
